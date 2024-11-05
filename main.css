@@ -3,7 +3,11 @@
     }
 body{
     background-color:#FFCC66;/*<!-- couleur de fond en fonction de l'élément contenant -->*/
+<<<<<<< HEAD
     width:90%px;/*<!-- largeur de la page -->*/
+=======
+    width:90%;/*<!-- largeur de la page -->*/
+>>>>>>> 8b8b81d33939942f459513f4abdc1171a1fab9f6
     }
     
 h1{
