@@ -1,0 +1,39 @@
+*{
+    font-family:Verdana, Arial, Helvetica;/*<!-- liste de spolices-->*/
+    }
+body{
+    background-color:#FFCC66;/*<!-- couleur de fond en fonction de l'élément contenant -->*/
+    width:770px;/*<!-- largeur de la page -->*/
+    }
+    
+h1{
+    font-size:1.5em;/*<--! 1.5 coefficiente la taille standard de la police de l'élément contenant, em permet à
+    l'utilisateur de la rendre ajustable-->*/
+    text-align:left;
+    font-style:italic;
+    font-weight:bold;
+    }
+h2{
+    font-size:1em;
+    text-align:left;
+    color:red;
+    }
+p{
+    font-size:0.5em;
+    text-align:left;
+    color:blue;
+    }
+motspécial{/*<--! cette balise a été crée pour encadrer un mot à différencier du reste du texte -->*/
+    font-size:4em;
+    color:green;
+    }
+table {
+    border: medium solid #000000;/*<!--cadre de tableau en trait continu (solid), noir (#000000) et d'épaisseur
+    moyenne (medium) ;-->*/
+    width: 50%;
+    }
+td{
+    border: thin solid #6495ed;/* des bordures de cellules en traits continus (solid) fins (thin) et bleus ciel
+    (#6495ed).-->*/
+    width: 50%;
+    }
