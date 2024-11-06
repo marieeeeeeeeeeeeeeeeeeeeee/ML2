@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="main.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="menu/menu.css">
     <title>Rugby</title>
 </head>
 <body>
-    <P><h1>Ligue de rugby</h1></p>
-    <Span>
-        <h2>Histoire du rugby</h2>
+    <section class="showcase">
+        <header>
+         <h2 class="logo">Ligue de rugby</h2>
+         <div class="toggle"></div>
+    
+ </header>>
+ <!--Histoire-->
+
+    <div id="Histoire" class="tabcontent"> 
+    <h2>Histoire du rugby</h2>
         <p>Le rugby à XV est né en Angleterre au XIXe siècle. La légende raconte qu'il a été inventé en 1823 à la Rugby School, où un élève, William Webb Ellis, aurait saisi le ballon à la main pendant un match de football et couru vers le but adverse. Ce geste est devenu emblématique et a contribué à poser les bases d'un sport qui se différencie du football.<br><br>
         La première fédération de rugby, la Rugby Football Union (RFU), a été créée en 1871 en Angleterre. Le sport s'est ensuite popularisé dans les pays anglophones comme le pays de Galles, l'Irlande, l'Écosse, l'Australie, la Nouvelle-Zélande et l'Afrique du Sud. En 1987, la première Coupe du Monde de rugby a eu lieu, renforçant la popularité du jeu.<br><br><br>
         Le rugby à 7, ou rugby sevens, a été créé en Écosse en 1883 par deux bouchers, Ned Haig et David Sanderson, pour lever des fonds pour leur club, le Melrose RFC. Ce format rapide et réduit, avec sept joueurs par équipe et des matchs de 7 minutes par mi-temps, a rapidement gagné en popularité pour son dynamisme et ses actions spectaculaires.<br><br>
         Le rugby à 7 est devenu un sport international dans les années 1970 grâce au tournoi de Hong Kong, devenu un rendez-vous majeur. En 2009, il a été spécifiquement intégré aux Jeux Olympiques et a fait ses débuts aux JO de Rio en 2016, marquant un tournant dans son histoire en le rendant accessible à un public mondial.</P>
-    </Span>
-    <Span>
+    </div>
+    <div id="Régles" class="tabcontent">
         <h2>Régles du rugby</h2>
         <p>Les règles du rugby à XV :<br>
             Objectif : Marquer plus de points que l'adversaire en réalisant des essais, des transformations, des pénalités et des drops.<br>
@@ -51,14 +58,16 @@
              Carton rouge : Exclusion définitive, sans remplacement.<br>
              Remplacements : 5 remplacements par équipe.<br>
              Le rugby à 7 se distingue par son rythme très rapide et ses actions spectaculaires, mettant en avant la vitesse et l'agilité.</p>
-    </Span>
-    <Span>
+            </div>
+    <div id="Entraineurs" class="tabcontent">
         <h3>Entraineurs</h3>
-    </Span>
-    <Span>
+    </div>
+    <div id="Catégories" class="tabcontent">
+    
         <h3>Catégories dans la pratique du rugby</h3>
-    </Span>
-    <Span>
+    </div>
+    <div id="Lieu&Horaires" class="tabcontent">
+        
         <table>
             <tr>
                 <th>
@@ -90,7 +99,10 @@
             </tr>
         </table>
         
-    </Span>
+    </div>
+    <div id="Calendrier" class="tabcontent">
+        
+    </div>
     <footer>
         <h2 id="address">Adresse de contact</h2>
             <p>Pour toute information sur les entraînements ou pour joindre la ligue : <br>
@@ -100,7 +112,26 @@
             - Marie-Elvire AMANI : marieelvire.amani@limayrac.fr <br>
         </p>
     </footer>
-    
+    </section>
+     <!--Menu-->
+     <div class="menu">
+        <div class="tab">
+        <nav>
+            <ul>
+                <li><button class="tablinks"><a href="Index.html">Acceuil</a></button></li>
+                <li><button class="tablinks" onclick="openPage(event, 'Histoire')">Histoire</button></li>
+                <li><button class="tablinks" onclick="openPage(event, 'Régles')">Régles</button></li>
+                <li><button class="tablinks" onclick="openPage(event, 'Entraineurs')">Entraineurs</button></li>
+                <li><button class="tablinks" onclick="openPage(event, 'Catégories')">Catégories</button></li>
+                <li><button class="tablinks" onclick="openPage(event, 'Lieu&Horaires')">Lieu & Horaires</button></li>
+                <li><button class="tablinks" onclick="openPage(event, 'Calendrier')">Calendrier</button></li>
+            </ul>
+        </nav> 
+        </div>
+        </div>
+        
+        <script src="menu/menu.js"></script>
+        <script src="menu/pages.js"></script>
 </body>
 </html>
 
