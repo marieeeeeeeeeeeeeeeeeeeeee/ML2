@@ -3,48 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="main.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="menu/menu.css">
+    
+    
     <title>Ligue de Judo</title>
 </head>
 <body>
-    <header>
-        <P><h1>Ligue de Judo</h1></P>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Judo</h2>
+            <div class="toggle"></div>
+       
     </header>
-    
-    <Span>
+    <!--Histoire-->
+    <div id="Histoire" class="tabcontent">
         <h3>Histoire du Judo</h3>
-    </Span>
-    <Span>
+        <p>qvshvblqdsbvqshbvlqshvbqldshvbqlshdvbqlshdbvlqdsv</p>
+    </div>
+    <!--Régles-->
+    <div id="Régles" class="tabcontent">
         <h3>Régles du Judo</h3>
-    </Span>
-    <Span>
+        <p>qvshvblqdsbvqshbvlqshvbqldshvbqlshdvbqlshdbvlqdsv</p>
+    </div>
+    <!--Entraineurs-->
+    <div id="Entraineurs" class="tabcontent">
         <h3>Entraineurs</h3>
-    </Span>
-    <Span>
+        <p>qvshvblqdsbvqshbvlqshvbqldshvbqlshdvbqlshdbvlqdsv</p>
+    </div>
+    <!--Catégories-->
+    <div id="Catégories" class="tabcontent">
         <h3>Catégories dans la pratique du Judo</h3>
-    </Span>
-    <Span>
+        <p>qvshvblqdsbvqshbvlqshvbqldshvbqlshdvbqlshdbvlqdsv</p>
+    </div>
+    <!--Lieu & Horaires-->
+    <div id="Lieu&Horaires" class="tabcontent">
         <table>
             <tr>
-                <th>
-                    <h3>Lieu d'entraitement</h3>
-                </th>
-                <th>
-                    <h3>Jours d'entrainement</h3>
-                </th>
+                <th><h3>Lieu d'entraitement</h3></th>
+                <th><h3>Jours d'entrainement</h3></th>
             </tr>
             <tr>
-                <td>
-                    Lieu
-                </td>
-                <td>
-                    jours
-                </td>
+                <td>Lieu</td>
+                <td>jours</td>
             </tr>
-        </table>
-        
-    </Span>
-    <span>
+        </table>  
+    </div>
+    <!--Calendrier-->
+    <div id="Calendrier" class="tabcontent">
         <h3>Calendrier des matchs</h3>
         <table>
             <tr>
@@ -74,12 +79,30 @@
                 <td> </td>
                 <td> </td>
                 <td> </td>
-                
             </tr>
         </table>
-    </span>
-    <footer>
+    </div>
+    <div id="Contact" class="tabcontent">
         <h4>Contact</h4>
-    </footer>
+    </div>
+    </section> 
+    <!--Menu-->
+    <div class="menu">
+    <div class="tab">
+    <nav>
+        <ul>
+            <li><button class="tablinks" onclick="openPage(event, 'Histoire')">Histoire</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'Régles')">Régles</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'Entraineurs')">Entraineurs</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'Catégories')">Catégories</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'Lieu&Horaires')">Lieu & Horaires</button></li>
+            <li><button class="tablinks" onclick="openPage(event, 'Calendrier')">Calendrier</button></li>
+        </ul>
+    </nav> 
+    </div>
+    </div>
+    
+    <script src="menu/menu.js"></script>
+    <script src="menu/pages.js"></script>
 </body>
 </html>
