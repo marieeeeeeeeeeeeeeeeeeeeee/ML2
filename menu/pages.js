@@ -1,7 +1,9 @@
 function openPage(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
-  
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -17,5 +19,7 @@ function openPage(evt, cityName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
   }
 
