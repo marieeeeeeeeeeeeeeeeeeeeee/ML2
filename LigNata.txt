@@ -6,6 +6,32 @@ La natation s'est enrichie au fil des décennies avec l'ajout de nouveaux styles
 La natation aujourd'hui
 De nos jours, la natation est un sport mondialement pratiqué pour le loisir et la compétition. Les compétitions internationales, telles que les Jeux olympiques et les Championnats du monde, attirent un large public et propulsent des athlètes comme Léon Marchand sous les projecteurs, battant des records et inspirant de nouvelles générations.
 ________________________________________
+Règles de la Natation
+
+Les compétitions de natation sont régies par un ensemble de règles strictes, établies par la Fédération Internationale de Natation (FINA), afin de garantir l'équité et la sécurité de tous les participants.
+
+Règles générales :
+
+    Départ : Les nageurs doivent s'aligner sur les plots de départ et ne peuvent pas plonger avant le signal.
+    Arrivée : Le premier nageur à toucher la paroi avec n'importe quelle partie de son corps est déclaré vainqueur.
+    Style de nage : Chaque nageur doit respecter le style de nage imposé pour chaque épreuve (libre, dos, brasse, papillon).
+    Vêtements et équipements : Les nageurs doivent porter un maillot de bain réglementaire et ne peuvent utiliser aucun équipement susceptible de donner un avantage injuste.
+    Fausses départs : Un faux départ entraîne la disqualification du nageur fautif.
+
+Règles spécifiques à chaque style :
+
+    Nage libre : Le style le plus libre, mais certaines techniques sont interdites (par exemple, la nage sous l'eau sur plus de 15 mètres après le départ ou à chaque virage).
+    Dos : Le nageur doit rester sur le dos tout au long de l'épreuve.
+    Brasse : Les deux bras et les deux jambes doivent avancer simultanément.
+    Papillon : Les deux bras et les deux jambes doivent avancer simultanément, avec un mouvement ondulatoire du corps.
+
+Autres règles importantes :
+
+    Virrages : Les nageurs doivent toucher la paroi avec les deux mains simultanément lors des virages.
+    Relais : Les relais sont des épreuves par équipes. Les nageurs doivent toucher la paroi avec les pieds pour passer le relais au nageur suivant.
+    Disqualifications : Les nageurs peuvent être disqualifiés pour diverses raisons, telles que les faux départs, les infractions aux règles de style, ou l'utilisation d'équipements non autorisés.
+
+________________________________________
 Les catégories de compétition
 Les épreuves de natation se distinguent par leurs styles de nage (libre, dos, brasse, papillon) et leurs distances, chaque type d’épreuve nécessitant des compétences spécifiques :
 •	50 m et 100 m : Ce sont des courses de sprint qui nécessitent une puissance explosive et une technique impeccable, car les nageurs doivent maintenir un rythme intense sans erreur.

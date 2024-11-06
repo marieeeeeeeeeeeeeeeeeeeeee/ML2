@@ -3,67 +3,98 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="main-nata.css" rel="stylesheet" type="text/css" media="all">
-        <link href="main.css" rel="stylesheet" type="text/css" media="all">
+        <!-- <link href="main-nata.css" rel="stylesheet" type="text/css" media="all">
+        <link href="main.css" rel="stylesheet" type="text/css" media="all"> -->
+        <link rel="stylesheet" href="menu/menu.css">
         <title>Natation love</title>
     </head>
     <body>
-        <h1>la ligue de la natation</h1>
-            <h2>sommaire :</h2>
-                <ul>
-                    <li><h2><a href="#Histoire">Historique de la natation :</a></h2></li>
-                        <li><h3>Création du sport</h3></li>
-                        <li><h3>Évolution de la discipline</h3></li>
-                        <li><h3>La natation aujourd'hui</h3></li>
-                    <li><h2><a href="#cat">Les catégories de compétition</a></h2></li>
-                    <li><h2><a href="#entraîneurs">Les entraîneurs</a></h2></li>
-                        <li><h3>Compétences et obligations des entraîneurs</h3></li>
-                        <li><h3>Exemples d'entraîneurs célèbres</h3></li>
-                    <li><h2><a href="lieu">Lieux et jours d’entraînement</a></h2></li>
-                    <li><h2><a href="address">Adresse de contact</a></h2></li>
-                    <li><h2><a href="calendrier">Calendrier des compétitions</a></h2></li>
-                    <li><h2><a href="Événements">Événements marquants de ces dernières années en natation</a></h2></li>
-                        <li><h3>Léon Marchand aux Championnats du monde 2023</h3></li>
-                        <li><h3>Caeleb Dressel aux Jeux olympiques de Tokyo 2020</h3></li>
-                        <li><h3>Katie Ledecky et ses records en longue distance</h3></li>
-                </ul>
-
-
-            <h2 id="Histoire">Historique de la natation :</h2>
+        <section class="showcase">
+        <header>
+            <h2 class="logo">ligue de natation</h2>
+            <div class="toggle"></div>
+        </header>
+            <div id="Histoire" class="tabcontent"> 
+                <h2 id="Histoire">Historique de la natation :</h2>
                 <h3>Création du sport</h3>
-                    <p>La natation a une origine ancienne, avec des traces de son existence dans des cultures comme l’Égypte et la Grèce antiques. À l’époque, elle servait pour la survie, l’entraînement militaire et même les rituels. Au 19e siècle, la natation se transforme en un sport moderne, avec des compétitions organisées, particulièrement en Angleterre et en Australie. En 1908, la Fédération Internationale de Natation (FINA) est fondée pour standardiser les règles et structurer le sport à l'échelle mondiale. La natation entre au programme olympique en 1896 pour les hommes, et en 1912 pour les femmes.</p>
+                    <p>La natation a une origine ancienne, avec des traces de son existence dans des cultures comme l’Égypte et la Grèce antiques. À l’époque, elle servait pour la survie, l’entraînement militaire et même les rituels. Au 19e siècle, la natation se transforme en un sport moderne, avec des compétitions organisées, particulièrement en Angleterre et en Australie. En 1908, la Fédération Internationale de Natation (FINA) est fondée pour standardiser les règles et structurer le sport à l'échelle mondiale. La natation entre au programme olympique en 1896 pour les hommes, et en 1912 pour les femmes.</p> <br>
+
                 <h3>Évolution de la discipline</h3>
-                    <p>La natation s'est enrichie au fil des décennies avec l'ajout de nouveaux styles de nage comme le papillon, apparu dans les années 1930. Les compétitions intègrent également des épreuves de relais et des longueurs variées. Les années 1970 marquent l’introduction de nouvelles technologies dans les équipements, comme les maillots hydrodynamiques, influençant les performances en compétition. La FINA met à jour les règles pour garantir l’équité et bannir les équipements qui pourraient créer un avantage injuste.</p>
+                    <p>La natation s'est enrichie au fil des décennies avec l'ajout de nouveaux styles de nage comme le papillon, apparu dans les années 1930. Les compétitions intègrent également des épreuves de relais et des longueurs variées. Les années 1970 marquent l’introduction de nouvelles technologies dans les équipements, comme les maillots hydrodynamiques, influençant les performances en compétition. La FINA met à jour les règles pour garantir l’équité et bannir les équipements qui pourraient créer un avantage injuste.</p> <br>
+
                  <h3>La natation aujourd'hui</h3>
                     <p>De nos jours, la natation est un sport mondialement pratiqué pour le loisir et la compétition. Les compétitions internationales, telles que les Jeux olympiques et les Championnats du monde, attirent un large public et propulsent des athlètes comme Léon Marchand sous les projecteurs, battant des records et inspirant de nouvelles générations.</p>
+            </div>
 
 
-            <h2 id="cat">Les catégories de compétition</h2>
-                <p>Les épreuves de natation se distinguent par leurs styles de nage (libre, dos, brasse, papillon) et leurs distances, chaque type d’épreuve nécessitant des compétences spécifiques :</p>
-                <ul>                    
-                    <li>50 m et 100 m : Ce sont des courses de sprint qui nécessitent une puissance explosive et une technique impeccable, car les nageurs doivent maintenir un rythme intense sans erreur.</li>
-                    <li>200 m : Course exigeant une bonne gestion de l’effort ; les athlètes doivent équilibrer vitesse et endurance.</li>
-                    <li>400 m : Distance intermédiaire entre sprint et endurance, nécessitant une excellente gestion de la respiration et des mouvements.</li>
-                    <li>800 m et 1500 m : Les épreuves de fond où la maîtrise de la respiration et de l'endurance est cruciale. La plupart de ces épreuves sont nagées en nage libre.</li>
-                </ul>
-                <p>Les compétitions comprennent aussi des épreuves en relais, où les nageurs effectuent chacun une partie de la distance, mettant en valeur l'esprit d’équipe et la coordination.</p>
+            <div id="Régles" class="tabcontent">
+                <h2>Règles de la Natation</h2>
+                    <p>Les compétitions de natation sont régies par un ensemble de règles strictes, établies par la Fédération Internationale de Natation (FINA), afin de garantir l'équité et la sécurité de tous les participants.</p> <br>
+
+                    <h3>Règles générales :</h3>
+                        <ul>
+                            <li>Départ : Les nageurs doivent s'aligner sur les plots de départ et ne peuvent pas plonger avant le signal.</li>
+                            <li>Arrivée : Le premier nageur à toucher la paroi avec n'importe quelle partie de son corps est déclaré vainqueur.</li>
+                            <li>Style de nage : Chaque nageur doit respecter le style de nage imposé pour chaque épreuve (libre, dos, brasse, papillon).</li>
+                            <li>Vêtements et équipements : Les nageurs doivent porter un maillot de bain réglementaire et ne peuvent utiliser aucun équipement susceptible de donner un avantage injuste.</li>
+                            <li>Fausses départs : Un faux départ entraîne la disqualification du nageur fautif.</li>
+                        </ul> <br>
+
+                    <h3>Règles spécifiques à chaque style :</h3>
+                        <ul>
+                            <li>Nage libre : Le style le plus libre, mais certaines techniques sont interdites (par exemple, la nage sous l'eau sur plus de 15 mètres après le départ ou à chaque virage).</li>
+                            <li>Dos : Le nageur doit rester sur le dos tout au long de l'épreuve.</li>
+                            <li>Brasse : Les deux bras et les deux jambes doivent avancer simultanément.</li>
+                            <li>Papillon : Les deux bras et les deux jambes doivent avancer simultanément, avec un mouvement ondulatoire du corps.</li>
+                        </ul><br>
+
+                    <h3>Autres règles importantes :</h3>
+                    <ul>
+                        <li>Virrages : Les nageurs doivent toucher la paroi avec les deux mains simultanément lors des virages.</li>
+                        <li>Relais : Les relais sont des épreuves par équipes. Les nageurs doivent toucher la paroi avec les pieds pour passer le relais au nageur suivant.</li>
+                        <li>Disqualifications : Les nageurs peuvent être disqualifiés pour diverses raisons, telles que les faux départs, les infractions aux règles de style, ou l'utilisation d'équipements non autorisés.</li>
+                    </ul>
+            </div>
 
 
+            <div id="Entraineurs" class="tabcontent">
             <h2 id="entraîneurs">Les entraîneurs</h2>
-                <p>Les entraîneurs de natation sont essentiels à la préparation et au développement des nageurs, des débutants aux champions de haut niveau. Ils assurent la progression technique, physique et mentale de leurs athlètes. Un bon entraîneur analyse les performances, ajuste les entraînements et crée des programmes sur mesure pour optimiser la progression des nageurs.</p>
+                <p>Les entraîneurs de natation sont essentiels à la préparation et au développement des nageurs, des débutants aux champions de haut niveau. Ils assurent la progression technique, physique et mentale de leurs athlètes. Un bon entraîneur analyse les performances, ajuste les entraînements et crée des programmes sur mesure pour optimiser la progression des nageurs.</p> <br>
+
                 <h3>Compétences et obligations des entraîneurs</h3>
-                    <p>Les entraîneurs maîtrisent les styles de nage, la physiologie et la psychologie sportive. Ils sont responsables de l’adaptation des séances d’entraînement aux besoins de chaque nageur et gèrent les périodes de récupération. Un bon entraîneur sait également motiver ses athlètes et les aider à gérer la pression des compétitions.</p>
+                    <p>Les entraîneurs maîtrisent les styles de nage, la physiologie et la psychologie sportive. Ils sont responsables de l’adaptation des séances d’entraînement aux besoins de chaque nageur et gèrent les périodes de récupération. Un bon entraîneur sait également motiver ses athlètes et les aider à gérer la pression des compétitions.</p> <br>
+
                 <h3>Exemples d'entraîneurs célèbres</h3>
                  <ul>
                     <li>Bob Bowman : Célèbre pour son rôle dans la formation de Michael Phelps, il est reconnu pour ses méthodes innovantes et son exigence qui ont permis à Phelps de devenir le nageur le plus décoré de l’histoire olympique.</li>
                     <li>Michel Chrétien : En France, il a entraîné des talents comme Hugues Duboscq et est réputé pour sa rigueur et son approche scientifique de l’entraînement.</li>
                  </ul>
-            
+            </div>
 
+
+            <div id="Catégories" class="tabcontent">
+                <h2 id="cat">Les catégories de compétition</h2>
+                    <p>Les épreuves de natation se distinguent par leurs styles de nage (libre, dos, brasse, papillon) et leurs distances, chaque type d’épreuve nécessitant des compétences spécifiques :</p> <br>
+
+                    <ul>                    
+                        <li>50 m et 100 m : Ce sont des courses de sprint qui nécessitent une puissance explosive et une technique impeccable, car les nageurs doivent maintenir un rythme intense sans erreur.</li>
+                        <li>200 m : Course exigeant une bonne gestion de l’effort ; les athlètes doivent équilibrer vitesse et endurance.</li>
+                        <li>400 m : Distance intermédiaire entre sprint et endurance, nécessitant une excellente gestion de la respiration et des mouvements.</li>
+                        <li>800 m et 1500 m : Les épreuves de fond où la maîtrise de la respiration et de l'endurance est cruciale. La plupart de ces épreuves sont nagées en nage libre.</li>
+                    </ul> <br>
+
+                    <p>Les compétitions comprennent aussi des épreuves en relais, où les nageurs effectuent chacun une partie de la distance, mettant en valeur l'esprit d’équipe et la coordination.</p>
+                </div>
+
+
+            <div id="Lieu&Horaires" class="tabcontent">
                  <h2 id="lieu">Lieux et jours d’entraînement</h2>
                     <p>Les ligues de natation organisent les entraînements dans des piscines locales, qu’elles soient municipales ou privées. Les jours et horaires varient, mais la plupart des clubs offrent des créneaux réguliers en semaine et le week-end pour chaque catégorie de nageurs.</p>
                 
+            </div>
 
+
+            <div id="Calendrier" class="tabcontent">
                 <h2 id="calendrier">Calendrier des compétitions</h2>
                 <table>
                     <tr>
@@ -97,17 +128,23 @@
                         <td>Variable</td>
                     </tr>
                 </table>
+            </div>
 
 
+            <div id="Evement" class="tabcontent">
                 <h2 id="Événements">Événements marquants de ces dernières années en natation</h2>
                     <h3>Léon Marchand aux Championnats du monde 2023</h3>
-                        <p>Léon Marchand, un prodige français, a marqué l’histoire de la natation en 2023 en battant le record du légendaire Michael Phelps dans le 400 m 4 nages, un record qui semblait inatteignable. Ce succès le place parmi les meilleurs nageurs mondiaux et lui permet de représenter la France avec fierté.</p>
+                        <p>Léon Marchand, un prodige français, a marqué l’histoire de la natation en 2023 en battant le record du légendaire Michael Phelps dans le 400 m 4 nages, un record qui semblait inatteignable. Ce succès le place parmi les meilleurs nageurs mondiaux et lui permet de représenter la France avec fierté.</p> <br>
+
                     <h3>Caeleb Dressel aux Jeux olympiques de Tokyo 2020</h3>
-                        <p>L'Américain Caeleb Dressel a ébloui le public aux Jeux de Tokyo en remportant cinq médailles d’or, dont celles du 100 m nage libre et du relais 4x100 m. Sa rapidité et son explosivité en font une légende contemporaine de la natation.</p>
+                        <p>L'Américain Caeleb Dressel a ébloui le public aux Jeux de Tokyo en remportant cinq médailles d’or, dont celles du 100 m nage libre et du relais 4x100 m. Sa rapidité et son explosivité en font une légende contemporaine de la natation.</p> <br>
+                        
                     <h3>Katie Ledecky et ses records en longue distance</h3>
                         <p>Katie Ledecky continue de dominer les épreuves de fond avec des records mondiaux dans des disciplines comme le 800 m et le 1500 m. Sa régularité et son endurance inspirent toute une génération de nageurs, faisant d'elle une icône du sport.</p>
+            </div>
 
 
+            <div id="Contact" class="tabcontent">
                 <footer>
                     <h2 id="address">Adresse de contact</h2>
                         <p>Pour toute information sur les entraînements ou pour joindre la ligue : <br>
@@ -115,7 +152,28 @@
                         - Raphaël TONON rugby-man : raphael.tonon@limayrac.fr <br>
                         - Mateo LASVENES judocas : mateo.lasvenes@limayrac.fr> <br>
                         - Marie-Elvire AMANI : marieelvire.amani@limayrac.fr <br>
-                    </p>
+                        </p>
                 </footer>
+            </div>
+            </section>
+                    <!--Menu-->
+                <div class="menu">
+                <div class="tab">
+                    <nav>
+                        <ul>
+                            <li><button class="tablinks" onclick="openPage(event, 'Histoire')">Histoire</button></li>
+                            <li><button class="tablinks" onclick="openPage(event, 'Régles')">Régles</button></li>
+                            <li><button class="tablinks" onclick="openPage(event, 'Entraineurs')">Entraineurs</button></li>
+                            <li><button class="tablinks" onclick="openPage(event, 'Catégories')">Catégories</button></li>
+                            <li><button class="tablinks" onclick="openPage(event, 'Lieu&Horaires')">Lieu & Horaires</button></li>
+                            <li><button class="tablinks" onclick="openPage(event, 'Calendrier')">Calendrier</button></li>
+                            <li><button class="tablinks" onclick="openPage(event, 'Evement')">Evement</button></li>
+                        </ul>
+                    </nav> 
+                </div>
+                </div>
+        
+        <script src="menu/menu.js"></script>
+        <script src="menu/pages.js"></script>
     </body>
 </html>
