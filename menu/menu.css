@@ -87,6 +87,7 @@ header .logo
 .menu ul li a
 {
   text-decoration: none;
+  text-align: justify;
   font-size: 24px;
   color: #111;
 }
@@ -130,4 +131,8 @@ header .logo
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+th,td{
+  padding: 15px;
 }
