@@ -1,3 +1,9 @@
+/*colors*/
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
@@ -53,7 +59,7 @@ header .logo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #858080;
+  background: #0D3B66;
   
   transition: 0.5s;
   z-index: 2;
@@ -67,7 +73,7 @@ header .logo
 
 .menu
 {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 300px;
@@ -75,6 +81,7 @@ header .logo
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #FAF0CA;
 }
 .menu ul
 {
@@ -129,7 +136,8 @@ header .logo
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  border-radius: 1%;
+  background: #F4D35E;
   border-top: none;
 }
 
