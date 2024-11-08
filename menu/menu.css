@@ -69,8 +69,6 @@ header .logo
   right: 300px;
 }
 
-
-
 .menu
 {
   position: fixed;
@@ -106,14 +104,14 @@ header .logo
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  text-align: center;
+  background-color: #FAF0CA;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  background-color: inherit;
-  float: left;
+  background-color: #FAF0CA;
+  float: center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -124,21 +122,18 @@ header .logo
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #EE964B;
 }
-
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #F95738;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border-radius: 1%;
-  background: #F4D35E;
-  border-top: none;
+  background: #FAF0CA;
 }
 
 th,td{
