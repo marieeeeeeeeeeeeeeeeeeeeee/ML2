@@ -149,3 +149,7 @@ th,td{
 ul > li {
   margin-left: 15px;
 }
+
+h2{
+  text-align: center;
+}
